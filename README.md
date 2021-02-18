@@ -1,6 +1,6 @@
 # My Vim
 
-
+提供.vimrc給不是用ivim的使用者
 
 
 # **Vim Plugin**
