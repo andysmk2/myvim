@@ -1,8 +1,3 @@
-# My Vim
-
-提供.vimrc給不是用ivim的使用者
-
-
 # **Vim Plugin**
 
 ### **vim-plug**
@@ -368,63 +363,4 @@ let g:ctrlp_funky_matchtype = 'path'
 
 " git-blame
 nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
-```
-
-# Vim Key
-
-### reformat
-
-```bash
-gg  =  G
-```
-
-### 註解
-
-```bash
-按下 CTRL + v 進入 — VISUAL BLOCK — 模式
-選擇要註解的區塊
-按下 Shift + i 進入輸入模式
-輸入註解符號
-按下 Esc 鍵
-```
-
-### 檔首尾移動
-
-```bash
-G  移至檔尾
-gg 移至檔首
-```
-
-### 複製剪下貼上
-
-```bash
-y  複製選定塊 
-yy 複製整行
-d  剪下選定區塊 
-dd 剪下整行
-p  貼至遊標後
-P  貼至遊標前
-```
-
-### left
-
-```bash
-:{range}left[margin]
-```
-
-### Undo / Redo
-
-```bash
-
-R  取代字元至按 Esc 為止。
-U  在游標沒離開本行之前，回復所有編輯動作。
-Crtl+r 這個也是很重要，就是 redo 鍵。
-```
-
-### 排版
-
-```bash
-:ce(nter)  本行文字置中。
-:ri(ght)   本行文字靠右。
-:le(ft)    本行文字靠左。
 ```
