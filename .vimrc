@@ -1,4 +1,3 @@
-```vim
 " vim-plug
 call plug#begin('~/.vim/plugged')
 
@@ -143,4 +142,3 @@ let g:ctrlp_funky_matchtype = 'path'
 
 " git-blame
 nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
-```
